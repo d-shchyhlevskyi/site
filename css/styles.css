@@ -294,6 +294,39 @@ hr {
   border: 2px solid red;
 }
 
+.Tfloat {
+  text-align: 50%;
+  width: 90px;
+  background-color: white;
+  border: 2px solid #2ba7ff;
+  border-radius: 3px;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+  margin-left: 35px;
+  padding: 10px 10px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.Tfloat a {
+  text-decoration: none;
+  border: none !important;
+  display: block;
+}
+
+.Tfloat:hover a {
+  color: #FFFFFF;
+  text-decoration: none;
+  border: none;
+}
+
+.Tfloat:hover {
+  background-color: #30db58;
+  box-shadow: 0 0 7px 2px #30db58;
+  border: 2px solid #30db58;
+}
+
 .YT.float {
   width: 150px;
   background-color: #2ba7ff;
